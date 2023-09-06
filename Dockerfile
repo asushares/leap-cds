@@ -1,5 +1,5 @@
 
-FROM node:16-alpine AS builder
+FROM node:20-alpine AS builder
 LABEL maintainer="preston.lee@prestonlee.com"
 
 ENV YARN_CACHE_FOLDER /yarn
