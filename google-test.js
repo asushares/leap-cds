@@ -10,7 +10,7 @@ const CONSENT_FHIR_SERVERS = (process.env.CONSENT_FHIR_SERVERS || "")
 
 async function run() {
   const fhirBase = CONSENT_FHIR_SERVERS[0];
-  const fhirRes = await maybeAddAuth(superagent.get(`${fhirBase}/Consent`));
+  const fhirRes = await maybeAddAuth(superagent.get(`${fhirBase}/Consent/consent-00001`));
   console.log(fhirRes.body);
 }
 
