@@ -7,10 +7,12 @@
     "Consent"
   ],
   "contributors": [
-    "Mohammad Jafari <jafarim@gmail.com> (https://github.com/mojitoholic/)"
+    "Mohammad Jafari <jafarim@gmail.com>",
+    "Daniel Mendoza <danielhmendoza01@gmail.com>",
+    "Preston Lee <preston.lee@prestonlee.com>"
   ],
   "main": "index.js",
-  "repository": "git@github.com:mojitoholic/leap-cds.git",
+  "repository": "https://github.com/asushares/leap-cds",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "start-mon": "npx nodemon server.js",

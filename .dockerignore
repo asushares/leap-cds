@@ -1,0 +1,12 @@
+dist
+node_modules
+.browserslistrc
+.git
+.gitignore
+Dockerfile
+
+# Stuff needing cleanup
+.cloudbuild.yaml
+.yarn/cache
+.yarn/install-state.gz
+coverage
